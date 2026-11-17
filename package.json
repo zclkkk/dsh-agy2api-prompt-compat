@@ -1,0 +1,30 @@
+{
+  "name": "dsh-agy2api-prompt-compat",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness system prompt compatibility for agy2api",
+  "type": "module",
+  "exports": "./index.js",
+  "main": "./index.js",
+  "files": ["index.js", "cordis.patch.yml"],
+  "repository": "github:zclkkk/dsh-agy2api-prompt-compat",
+  "license": "MIT",
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  },
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "packageManager": "pnpm@11.28.5",
+  "devDependencies": {
+    "@deepseek-ai/cordis": "4.1.0",
+    "@deepseek-ai/dsh-agent-loop-testkit": "0.2.2-rc.3",
+    "@deepseek-ai/dsh-brand": "0.2.2-rc.3",
+    "@deepseek-ai/dsh-harness-dev-context": "0.2.2-rc.3",
+    "@deepseek-ai/dsh-llm": "0.2.2-rc.3",
+    "@deepseek-ai/dsh-session": "0.2.2-rc.3",
+    "@deepseek-ai/dsh-system-prompt": "0.2.2-rc.3",
+    "typescript": "~6.0.3",
+    "vitest": "~4.1.11"
+  }
+}

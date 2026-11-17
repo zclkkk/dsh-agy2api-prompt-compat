@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "module": "NodeNext",
+    "target": "ES2024"
+  },
+  "include": ["index.js", "tests"]
+}

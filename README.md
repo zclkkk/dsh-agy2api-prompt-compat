@@ -2,7 +2,7 @@
 
 DeepSeek Harness 的 agy2api 提示词兼容补丁。先在 Harness 中配置好 [agy2api](https://github.com/zclkkk/agy2api) Provider，再将插件装进使用它的 profile。
 
-插件在 Harness 组装系统提示词时，改写内置身份介绍和 Web GUI 指引中的两处措辞。启用范围是整个 profile，切换 Provider 后仍然生效。
+插件在 Harness 组装系统提示词时，调整内置身份介绍、Web GUI 指引和 `@` 文件引用说明的措辞。启用范围是整个 profile，切换 Provider 后仍然生效。
 
 ## 安装
 
